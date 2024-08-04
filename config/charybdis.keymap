@@ -79,7 +79,7 @@
         number_symbol {
             bindings = <
 &kp GRAVE       &kp NUMBER_1     &kp NUMBER_2     &kp NUMBER_3      &kp NUMBER_4       &kp N5         &kp N6     &kp N7         &kp N8     &kp N9                &kp N0                 &kp BACKSPACE
-&kp TILDE       &kp EXCLAMATION  &kp AT           &kp HASH          &kp DOLLAR         &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PAGE_UP
+&kp TILDE       &kp EXCLAMATION  &kp AT           &kp HASH          &kp DOLLAR         &kp PERCENT    &kp CARET  &kp AMPERSAND  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp RCTRL
 &kp LEFT_SHIFT  &kp LEFT_BRACE   &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BSLH       &kp SLASH  &kp EQUAL      &kp PLUS   &kp DOT               &kp MINUS              &kp UNDERSCORE
                                                   &kp LEFT_GUI      &kp SPACE          &kp ESC        &kp ENTER  &kp BACKSPACE
             >;
