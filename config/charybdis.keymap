@@ -13,10 +13,52 @@
     combos {
         compatible = "zmk,combos";
 
-        escc {
-            bindings = <&kp ESC>;
-            key-positions = <17 18>;
-            layers = <0>;
+        lctrl {
+            bindings = <&kp LCTRL>;
+            key-positions = <15 16>;
+            layers = <0 2 1 3 4>;
+        };
+
+        rctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <19 20>;
+            layers = <0 2 1 3 4>;
+        };
+
+        lshift {
+            bindings = <&kp LEFT_SHIFT>;
+            key-positions = <15 14>;
+            layers = <0 2 1 3 4>;
+        };
+
+        rshift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <20 21>;
+            layers = <0 2 1 3 4>;
+        };
+
+        lalt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <13 14>;
+            layers = <0 2 1 3 4>;
+        };
+
+        ralt {
+            bindings = <&kp RIGHT_ALT>;
+            key-positions = <21 22>;
+            layers = <0 2 1 3 4>;
+        };
+
+        lwin {
+            bindings = <&kp LEFT_GUI>;
+            key-positions = <13 16>;
+            layers = <0 2 1 3 4>;
+        };
+
+        rwin {
+            bindings = <&kp RIGHT_GUI>;
+            key-positions = <19 22>;
+            layers = <0 2 1 3 4>;
         };
     };
 
